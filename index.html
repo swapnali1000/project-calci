@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculater</title>
+        <style>
+            .calci-container{
+                background:#333333;
+                height: 430px;
+                width: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 100px;
+                border-radius: 20px;
+                padding-top: 30px;
+                background-image: url("https://st4.depositphotos.com/4984749/20144/i/450/depositphotos_201446926-stock-photo-gradient-background-black-night-dark.jpg");
+               background-repeat: 300px 430px;
+            }
+            .brand-name{
+                padding-left: 10px;
+                font-size:20px;
+                color:  #a6a6a6;
+            }
+            .calci-screen{
+                height: 40px;
+                width:250px;
+                background-color: #334d4d;
+                border-radius: 5px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 5px;
+                display: block;
+
+                
+            }
+            .rowtop-btn{
+                background-color: black;
+                color: grey;
+                border-radius: solid grey;
+                height:30px;
+                width:60px;
+                border-radius: 5px;
+                background-image: url("https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg");
+                background-position: 100%;
+                background-size: 60px 30px;
+               
+                
+            }
+             .rowtop-btn:hover{
+                font-size: 20px;
+                box-shadow: 1px 2px 1px 2px;
+                
+            
+            }
+            .cal-btn{
+                
+                justify-content: space-evenly;
+                display: flex;
+            }
+           
+            .row-btn{
+                background-color: black;
+                color: grey;
+                border-radius: solid grey;
+                height:60px;
+                width:60px;
+                border-radius: 5px;
+                margin-top: 10px;
+                font-size: 30px;
+                background-image: url("https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg");
+                background-position: 100%;
+                background-repeat: no-repeat;
+                background-size: 60px 70px;
+            }
+            .row-btn:hover{
+                font-size: 40px;
+                box-shadow: 1px 2px 1px 2px;
+                
+            }
+            
+            .eql-btn{
+                background-color: orangered;
+                background-image: none;
+            }
+            .symb-btn{
+                background-color: #a6a6a6;
+                color:#333333;
+                
+            }
+           
+            
+        </style>
+    </head>
+    <body>
+        <div class="calci-container">
+          
+            <input type="text" class="calci-screen">
+        <div class="brand-name"><p><i>Canon</i></p></div>
+           <div class="cal-btn" >
+            <button class="rowtop-btn">1/x</button>
+            <button class="rowtop-btn">sin</button>
+            <button class="rowtop-btn">/</button>
+            <button class="rowtop-btn">*</button>
+            </div>
+            <div class="cal-btn" >
+                <button class="row-btn">7</button>
+                <button class="row-btn">8</button>
+                <button class="row-btn">9</button>
+                <button class="row-btn symb-btn">÷</button>
+                </div>
+                <div class="cal-btn" >
+                    <button class="row-btn">4</button>
+                    <button class="row-btn">5</button>
+                    <button class="row-btn">6</button>
+                    <button class="row-btn symb-btn">×</button>
+                    </div>
+                    <div class="cal-btn" >
+                        <button class="row-btn">1</button>
+                        <button class="row-btn">2</button>
+                        <button class="row-btn">3</button>
+                        <button class="row-btn symb-btn">-</button>
+                        </div>
+                        <div class="cal-btn" >
+                            <button class="row-btn">0</button>
+                            <button class="row-btn">.</button>
+                            <button class="row-btn symb-btn">+</button>
+                            <button class="row-btn eql-btn">=</button>
+                            </div>
+        
+
+        </div>
+    </body>
+</html>
